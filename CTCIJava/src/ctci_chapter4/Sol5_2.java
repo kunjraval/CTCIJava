@@ -1,5 +1,10 @@
 package ctci_chapter4;
 
+/*
+ * check if the binary tree is binary search tree
+ * 
+ * solution 2
+ */
 public class Sol5_2 {
 
 	public static Integer last_printed = null;

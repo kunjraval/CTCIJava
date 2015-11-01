@@ -24,10 +24,14 @@ public class Sol6 {
 		
 		System.out.println("traversing through the list:");
 		btree.traverse();
-		System.out.println("next node for ");
+		
+		int d=60;
+		TNode node = new TNode(d);
+		System.out.println("next node for node " + node.toString() + " is: " + findNextNode(btree.find(d)));
 	}
 
 	public static TNode findNextNode(TNode n) {
+		System.out.println(n);
 		if(n == null) return null;
 		
 		if(n.right != null) {
